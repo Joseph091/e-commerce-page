@@ -1,0 +1,331 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Alfa Slab One', cursive;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+.header {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.fa-solid fa-bars {
+  display: none;
+}
+.sneakers {
+  font-family: poppins;
+  margin-left: 0px;
+}
+.middle-section {
+  color: rgb(192, 185, 185);
+}
+.left-section {
+  margin-left: 80px;
+}
+.middle-section {
+  display: flex;
+  width: 350px;
+  margin-top: 10px;
+  margin-left: 85px;
+  margin-right: 60px;
+  justify-content: space-between;
+}
+.right-section {
+  display: flex;
+  margin-left: 320px;
+}
+.hr {
+  color: rgb(247, 247, 247);
+  margin-left: 80px;
+  margin-right: 70px;
+  max-width: 1050px;
+}
+.material-symbols-outlined {
+  margin-top: 10px;
+  margin-right: 25px;
+}
+.img-user {
+  display: inline;
+  margin-right: 80px;
+  height: 40px;
+}  
+.section {
+  display: flex;
+  margin-top: 50px;
+  margin-left: 150px;
+}
+.img-prod-1 {
+  display: inline;
+  width: 400px;
+  max-height: 390px;
+  border-radius: 3%;
+}
+.div-img-row {
+  display: flex;
+  margin-top: 10px;
+  max-width: 400px;
+  justify-content: space-between;
+}
+.prod-1-thumb {
+  border-width: 20px;
+  border-color: rgb(223, 136, 36);
+  border-radius: 10%;
+  height: 70px;
+}
+.prod-2-thumb {
+  border-radius: 10%;
+  height: 70px;
+}
+.prod-3-thumb {
+  border-radius: 10%;
+  height: 70px;
+}
+.prod-4-thumb {
+  border-radius: 10%;
+  height: 70px;
+}
+.sneaker-div {
+  margin-left: 130px;
+  margin-top: 65px;
+}
+.sneaker-co {
+  margin-bottom: 20px;
+  color: rgb(224, 85, 34);
+  font-size: 11px;
+}
+.fall-h1 {
+  color: black;
+  margin-bottom: 25px;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.sneaker-p {
+  color: rgb(193, 194, 194);
+  margin-bottom: 20px;
+}
+.digits {
+  display: flex;
+}
+.price {
+  font-size: large;
+  font-weight: 800;
+}
+.percent-container {
+  max-width: 40px;
+  max-height: 19px;
+  margin-left: 20px;
+  margin-top: 3px;
+  background-color: rgb(255, 240, 240);
+  padding-left: 12px;
+  border-radius: 4px;
+}
+.percent {
+  margin-left: -6px;
+  color: rgba(255, 95, 21, 0.842);
+  font-weight: 800;
+  font-size: 13px;
+  width: 50px;
+}
+.old-price {
+  margin-top: 15px;
+  margin-bottom: 35px;
+  color: rgb(216, 203, 187);
+}
+.buttons {
+  display: flex;
+  max-width: 750px;
+  margin-top: 30px;
+  justify-content: space-between;
+}
+.simple-button {
+  display: flex;
+  width: 100px;
+  height: 35px;
+  background-color: rgb(243, 243, 243);
+  padding-left: 12px;
+  padding-top: 6px;
+  padding-right: 12px;
+  border-radius: 5px;
+  justify-content: space-between;
+  border: 0;
+}
+.minus {
+  color: rgb(201, 114, 1);
+  margin-top: -3px;
+  font-size: 25px;
+}
+.zero {
+  color: black;
+  margin-top: 6px;
+}
+.plus {
+  color: rgb(201, 114, 1);
+  font-size: 20px;
+  margin-top: 1px;
+}
+.orange-button {
+  display: flex;
+  font: roboto;
+  font-weight: 200;
+  color: rgb(248, 247, 246);
+  border: 0;
+  border-radius: 5px;
+  background-color: rgb(255, 148, 27);
+  width: 220px;
+  height: 35px;
+}
+.material-symbols-outlined-orange-button {
+  margin-left: 45px;
+}
+.material-symbols-outlined {
+  display: inline-block;
+}
+.text-button {
+  margin-top: 11px;
+  margin-right: 20px;
+  color: white; 
+  font-size: 13px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+}
+@media screen and (max-width: 700px) {
+  .body {
+    background-color: rgb(249, 253, 253);
+  }
+  .header {
+    background-color:rgb(255, 255, 255);
+    display: flex;
+    max-width: 360px;
+    max-height: 120px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .left-section {
+    margin-left: 45px;
+  }
+  .fa-solid fa-bars {
+    display: inline;
+    width: 10px;
+    height: 15px;
+  }
+  .sneakers {
+    font-weight: bolder;
+    font-size: 30px;
+    margin-top: 5px;
+  }
+  .right-section {
+    margin-left: 70px;
+  }
+  .material-symbols-outlined {
+    margin-top: 15px;
+  }
+  .hr {
+    display: none;
+  }
+  .middle-section {
+    display: none;
+  }
+  .img-user {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 14px;
+    height: 27px;
+  }
+  .img-prod-1 {
+    border-radius: 0;
+    max-width: 360px;
+    max-height: 310px;
+  }
+  .section {
+    display: inline-block;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  .sneaker-div {
+    margin-left: 14px;
+    margin-top: 18px;
+  }
+  .div-img-row {
+    display: none;
+  }
+  .sneaker-co {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .fall-h1 {
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .sneaker-p {
+    margin-bottom: 15px;
+  }
+  .figures {
+    display: flex;
+    height: 25px;
+  }
+  .old-price {
+    margin-left: 120px;
+    margin-top: 2px;
+  }
+  .buttons {
+    flex-direction: column;
+    margin-top: 15px;
+  }
+  .simple-button {
+    margin-bottom: 12px;
+    width: 325px;
+    border-radius: 4px;
+  }
+  .minus {
+    font-size: 35px;
+    margin-top: -12px;
+    margin-left: 8px;
+    color: orange;
+  }
+  .zero {
+    size: 35px;
+    margin-top: 4px;
+  }
+  .plus {
+    font-size: 27px;
+    margin-top: -5px;
+    margin-left: 8px;
+    color: orange;
+  }
+  .orange-button {
+    display: flex;
+    flex-direction: row;
+    padding-top: 2px;
+    width: 325px;
+    border-radius: 4px;
+  }
+  .fa fa-shopping-cart {
+    height: 11px;
+    width: 11px;
+  }
+  .material-symbols-outlined-orange-button {
+    display: none;
+  }
+  .material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+  }
+  .material-symbols-outlined-ob {
+    display: inline;
+  }
+  .material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+  }
+}
+
